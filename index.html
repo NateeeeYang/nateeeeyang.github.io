@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery-杨天照</title>
+    <style>
+      .body {
+        margin: 0;
+        height: 100vh;
+        background-color: rgb(117, 117, 117);
+      }
+      .flex {
+        display: flex;
+      }
+      */ {
+        border: 0.5px solid black;
+      }
+      * .background {
+        margin: 0;
+        height: 500vh;
+        background-color: #972b2bc2;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .padding {
+        padding: 80px;
+      }
+      .box {
+        flex-wrap: wrap;
+      }
+      .baise {
+        background-color: rgb(255, 255, 255);
+      }
+      .font1 {
+        font-style: normal;
+        font-family: "Noto Sans SC";
+        font-weight: 200;
+        font-size: 15px;
+      }
+      .font2 {
+        font-style: normal;
+        font-family: "Noto Sans SC";
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .lineheight1 {
+        line-height: 30px;
+      }
+      .imgS {
+        height: 430px;
+        width: 430px;
+      }
+
+      .content {
+        margin: 0 3.5%;
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+      .article1 {
+        width: 32.3333%;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        position: relative;
+        margin: 0 0.2% 0.4%;
+      }
+
+      @media screen and (max-width: 860px) {
+        .article1 {
+          width: 100%;
+          padding: 0;
+          float: left;
+          margin: 0 0 30px;
+        }
+      }
+      .figure1 {
+        position: relative;
+        transition: 0.2s ease-in-out;
+        margin: 0;
+        opacity: 1;
+      }
+      .a1:hover .figure1 {
+        opacity: 0.6;
+      }
+      .p1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.6pt;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: 0.2s ease-in-out;
+      }
+
+      .a1 {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        color: inherit;
+        text-decoration: none;
+        background: 0 0;
+      }
+      .a1:hover .p1 {
+        opacity: 1;
+      }
+      .time,
+      time {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 200;
+      }
+      .cite,
+      cite {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 200;
+        margin: 0 0 60px;
+      }
+    </style>
+    <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d278694a9b7b23f39129500db9ebb7fe";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </head>
+
+  <body class="flex column" style="padding: 40px">
+    <!--标题栏-->
+    <div style="text-align: right">
+      <a href="nateeeeyang.github.io/About me.html" target="_self">
+        <img
+          src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/ABOUT.png"
+          width="60"
+          alt="About me"
+          style="margin-right: 10px"
+        />
+      </a>
+    </div>
+    <div style="color: rgb(31, 31, 33)" class="baise">
+      <h2 style="text-align: center">
+        <span style="font-weight: 500; font-size: 30px"
+          >杨天照 - Design Gallery</span
+        >
+      </h2>
+      <p style="margin-top: 50px; text-align: center" class="font1 lineheight1">
+        Hi~ : )
+        <br />这里是我的个人作品网站，<br />用以记录我从过去到未来的所有设计作品。
+        <br />Here is my personal work website, to record all my design works
+        from the past to the future.
+      </p>
+    </div>
+
+    <section class="content">
+      <!-- 作品1 -->
+      <article class="article1">
+        <a class="a1" href="https://yangtianzhao.com/630CR.html" title="630CR">
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/11.630CR.png"
+              alt="一体式上臂血压计-630CR"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>630CR</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品2 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/Yuwell%20YT-3.html"
+          title="额温枪"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/8.%20YT-3_v2.png"
+              alt="YT-3额温枪"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>额温枪</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品3 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/Yuwell%20YT-3.html"
+          title="红外耳温枪"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/7.%20YHT103.png"
+              alt="耳温枪103"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>红外耳温枪</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品4 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/blood%20glucose%20meter%20780.html"
+          title="笔式血糖仪"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/9.%20bishi780.png"
+              alt="血糖仪780"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>笔式血糖仪</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品5 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/e-commerce%20blood%20glucose%20meter.html"
+          title="血糖仪-A"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/11.%20%E7%BA%BF%E4%B8%8A%E4%BD%8E%E7%AB%AF%E8%A1%80%E7%B3%96%E4%BB%AA.png"
+              alt="血糖仪-A"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>血糖仪-A</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品6 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/blood%20glucose%20meter-B.html"
+          title="血糖仪-B"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/12.%20%E7%BA%BF%E4%B8%8B%E4%BD%8E%E7%AB%AF%E8%A1%80%E7%B3%96%E4%BB%AA.png"
+              alt="血糖仪-B"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>血糖仪-B</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品7 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/Overseas%20version%20Bloodpressure%20Monitor.html"
+          title="海外血压计"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/6.%20haiwai%20xueyaji.png"
+              alt="血压计"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>海外血压计</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品8 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/Medical%20High%20Flow.html"
+          title="医用高流量"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/5.%20%E5%B0%81%E9%9D%A2.png"
+              alt="高流量"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>医用高流量</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品9 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/Concept%20range%20hood.html"
+          title="概念油烟机"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/4.%20youyanji.png"
+              alt="概念油烟机"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>概念油烟机</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品10 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/Concept%20cooktop.html"
+          title="概念灶具"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/3.%20concept%20cooktop.png"
+              alt="概念灶具"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>概念灶具</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品11 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/32B7D%20cooktop.html"
+          title="32B7D燃气灶"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/2.%2032B7D.png"
+              alt="燃气灶设计"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>32B7D燃气灶</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+
+      <!-- 作品12 -->
+      <article class="article1">
+        <a
+          class="a1"
+          href="https://yangtianzhao.com/Sketch.html"
+          title="手绘图"
+        >
+          <figure class="figure1">
+            <img
+              src="https://portfolio-1.oss-cn-nanjing.aliyuncs.com/portfolio/0.%E5%B0%81%E9%9D%A2/1.%20sketch.png"
+              alt="手绘封面"
+              width="100%"
+              style="border: 0; vertical-align: top"
+            />
+          </figure>
+          <p class="p1">
+            <cite>手绘图</cite>
+            <time>2024</time>
+          </p>
+        </a>
+      </article>
+    </section>
+
+    <p style="margin-top: 50px; text-align: center" class="font1 lineheight1">
+      <br /><br /><br />若您希望设计委托或合作开发产品，请不要有任何顾虑，尽管联系我。
+      <br />If you wish to commission a design project or collaborate on a
+      product, <br />don't have any concerns, please feel free to contact me.<br />
+      <br /><b>联系方式 Contact：</b> <br />微信/wechat: 19031842077
+      <br />邮箱/Mail: yangtianzhao@126.com <br />
+      :) <br /><br />
+    </p>
+  </body>
+</html>
